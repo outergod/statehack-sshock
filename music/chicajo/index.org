@@ -1,0 +1,102 @@
+* Source
+http://www.chicajo.com/chicomdl/files.php?cat=5
+
+* Copyright
+1999 - 2010 chicajo.com
+
+* Licensing
+If you would like to use my music in a game or other type of project please send
+me an email to let me know. I would also ask that my work be credited by either
+providing a link to my website or a composer's note in supporting
+documentation. I will do the same via the hyperLinks page.
+
+* Reencoding Command
+#+BEGIN_SRC sh
+  for file in *.mp3
+  do
+    base=$(basename $file .mp3)
+    ffmpeg -y -i $file -acodec libvorbis ${base}.ogg
+  done
+#+END_SRC
+
+* Titles
+** SS CyberSpace / SS CyberSpace Ultra
+- Source: CyberSpace.mp3
+- File: CyberSpace.ogg
+- Description: The Ultra Mix
+** SS End Title / System Shock End Title
+- Source: SsEndTitle.mp3
+- File: SsEndTitle.ogg
+- Description: End Title Remix
+** SS Level 1 / System Shock L1 Medical
+- Source: SsLev1.mp3
+- File: SsLev1.ogg
+- Description: Healing Suites
+** SS Level 2 / System Shock L2 Science
+- Source: SsLev2.mp3
+- File: SsLev2.ogg
+- Description: Science and Research Laboratories
+** SS Level 3 / System Shock L3 Maintenance
+- Source: SsLev3.mp3
+- File: SsLev3.ogg
+- Description: Maintenance
+** SS Level 4 / System Shock L4 Storage Cells
+- Source: SsLev4.mp3
+- File: SsLev4.ogg
+- Description: Storage Cells
+** SS Level 6 / System Shock L6 Executive
+- Source: SsLev6.mp3
+- File: SsLev6.ogg
+- Description: Crew / utive Facilities
+** SS Level 7 / System Shock L7 Engineering
+- Source: SsLev7.mp3
+- File: SsLev7.ogg
+- Description: Systems Engineering
+** SS Level 8 / System Shock L8 Security
+- Source: SsLev8.mp3
+- File: SsLev8.ogg
+- Description: Department of Security
+** SS Level 9 / System Shock L9 Bridge
+- Source: SsLev9.mp3
+- File: SsLev9.ogg
+- Description: Bridge / Command Center
+** SS Level 9 Fright / System Shock L9 Fright Mix
+- Source: SsLev9Fright.mp3
+- File: SsLev9Fright.ogg
+- Description: The Fright Mix ReEdit
+** SS Level G / System Shock Groves
+- Source: SsLevG.mp3
+- File: SsLevG.ogg
+- Description: Ecological Groves
+** SS Level R / SystemShock Energy Level
+- Source: SsLevR.mp3
+- File: SsLevR.ogg
+- Description: Reactor
+** SS Reactor / SS1 Reactor - Overload Mix
+- Source: Reactor.mp3
+- File: Reactor.ogg
+- Description: The OverLoad Mix
+** SS1 Elevator Muzak / System Shock Elevator
+- Source: SsElevator.mp3
+- File: SsElevator.ogg
+- Description: Elevator Muzak Updated Mix
+** SS1 Executive Loop
+- Source: SS1_ExecLoop.mp3
+- File: SS1_ExecLoop.ogg
+- Description: A 2010 Remix of a gaming classic
+** SS1 Medical
+- Source: Medical.mp3
+- File: Medical.ogg
+- Description: A 2006 Remix
+** SS1 Science
+- Source: Science.mp3
+- File: Science.ogg
+- Description: A 2005 mix of a remix!
+** SS1 Security
+- Source: Security.mp3
+- File: Security.ogg
+- Description: Another 2006 remix of a remix.
+** System Shock Theme 06 / SS Theme - 06 Retro Mix
+- Source: SSTheme06Retro.mp3
+- File: SSTheme06Retro.ogg
+- Description: 06 Retro Mix
