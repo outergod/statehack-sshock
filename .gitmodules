@@ -1,0 +1,3 @@
+[submodule "ss1edit"]
+	path = ss1edit
+	url = https://github.com/ToxicFrog/ss1edit
